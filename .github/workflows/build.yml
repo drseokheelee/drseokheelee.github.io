@@ -126,6 +126,18 @@ jobs:
       id: pages
       uses: actions/configure-pages@v5
 
+    - name: Fetch post preview images
+      shell: bash
+      run: |
+        shopt -s nullglob
+        for f in content/blog/*/index.md; do
+          d=$(dirname "$f")
+          u=$(sed -n "s/^cover_source: *['\"]\(.*\)['\"] *$/\1/p" "$f" | head -1)
+          if [ -n "$u" ] && [ ! -e "$d/featured.jpg" ]; then
+            curl -fsSL --max-time 60 -o "$d/featured.jpg" "$u" || echo "::warning file=$f::Could not fetch preview image"
+          fi
+        done
+
     - name: Build with Hugo
       env:
         HUGO_ENVIRONMENT: production

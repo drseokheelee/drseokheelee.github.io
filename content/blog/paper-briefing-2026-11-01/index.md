@@ -10,8 +10,7 @@ tags:
   - SCADA
   - AI Security
   - Blockchain Forensics
-cover:
-  image: 'https://images.unsplash.com/photo-1680992046626-418f7e910589?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb&w=1600'
+cover_source: 'https://images.unsplash.com/photo-1680992046626-418f7e910589?ixlib=rb-4.1.0&q=80&fm=jpg&crop=entropy&cs=srgb&w=1600'
 ---
 
 *Coverage: arXiv submissions from 23 to 29 October 2026 and related CISA advisories. Preprints have not necessarily been peer reviewed.*
