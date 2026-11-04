@@ -17,4 +17,8 @@ tags:
   - TTPs
   - Arab World
 featured: true
+image:
+  caption: 'Methodology figure from the article (IEEE Access 2025), CC BY 4.0'
+  focal_point: 'Center'
+  preview_only: false
 ---

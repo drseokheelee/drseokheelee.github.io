@@ -29,4 +29,8 @@ tags:
   - RaaS
   - Cyber Threat Intelligence
 featured: true
+image:
+  caption: 'Figure 2 from the article (J. Cybersecur. Priv. 2026), CC BY 4.0'
+  focal_point: 'Center'
+  preview_only: false
 ---

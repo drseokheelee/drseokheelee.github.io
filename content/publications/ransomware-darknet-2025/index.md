@@ -18,4 +18,8 @@ tags:
   - Cryptocurrency
   - Cyber Threat Intelligence
 featured: true
+image:
+  caption: 'Summary illustration based on the abstract'
+  focal_point: 'Center'
+  preview_only: false
 ---

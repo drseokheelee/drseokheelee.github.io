@@ -16,4 +16,8 @@ tags:
   - Cybercrime
   - Glossary
 featured: true
+image:
+  caption: 'Cover-style illustration'
+  focal_point: 'Center'
+  preview_only: false
 ---

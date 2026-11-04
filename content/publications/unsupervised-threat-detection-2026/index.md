@@ -16,4 +16,8 @@ tags:
   - Anomaly Detection
   - Alert Prioritization
 featured: true
+image:
+  caption: 'Figure 9 from the article (Appl. Sci. 2026), CC BY 4.0'
+  focal_point: 'Center'
+  preview_only: false
 ---

@@ -19,4 +19,8 @@ tags:
   - Anomaly Detection
   - Critical Infrastructure
 featured: true
+image:
+  caption: 'Figure from the article (IJACSA 2026), CC BY 4.0'
+  focal_point: 'Center'
+  preview_only: false
 ---

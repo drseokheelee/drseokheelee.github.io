@@ -17,4 +17,8 @@ tags:
   - IoC
   - Arab World
 featured: true
+image:
+  caption: 'Figure 1 from the article (Electronics 2024), CC BY 4.0'
+  focal_point: 'Center'
+  preview_only: false
 ---
