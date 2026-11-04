@@ -12,9 +12,9 @@ postnominals:
   - PhD
 status:
   icon: "☕️"
-role: Assistant Professor & Program Director of Mater in Cybercrime and Digital Forensic Investigations
+role: Assistant Professor & Program Director of the Master of Cybercrime and Digital Forensics Investigation
 bio: |
-  Dr. Seokhee Lee is an Assistant Professor and Master of cybercrime and Digital Forensic Investigations Program Director in the 
+  Dr. Seokhee Lee is an Assistant Professor and Program Director of the Master of Cybercrime and Digital Forensics Investigation in the 
   Department of Cybersecurity and Digital Forensics at Naif Arab University 
   for Security Sciences (NAUSS), Riyadh, Saudi Arabia. He is the first PhD 
   in Digital Forensics in Korea. His expertise spans Cyber Threat Intelligence, 
@@ -54,7 +54,7 @@ education:
     start: 1996-03-01
     end: 2002-02-28
 experience:
-  - role: Assistant Professor & Program Director of Mater in Cybercrime and Digital Forensic Investigations
+  - role: Assistant Professor & Program Director of the Master of Cybercrime and Digital Forensics Investigation
     org: NAUSS (Naif Arab University for Security Sciences)
     start: 2022-06-01
     summary: |

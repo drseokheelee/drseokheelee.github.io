@@ -1,16 +1,17 @@
 ---
 title: 'AI-Amplification Indicator: An Actor-Level Scoring Framework for Ransomware Operations on the Dark Web'
 authors:
-  - Moallim Mostafa
+  - Mostafa Moallim
   - me
   - Ibrahim Alzahrani
   - Faisal Abdulaziz Alfouzan
   - Kyounggon Kim
-date: '2026-04-01'
-publishDate: '2026-04-01'
+date: '2026-04-08'
+publishDate: '2026-04-08'
 publication_types:
   - article-journal
-publication: 'Journal of Cybersecurity and Privacy, MDPI, vol. 6, no. 2, p. 70'
+publication: 'Journal of Cybersecurity and Privacy, vol. 6, no. 2, art. 70'
+doi: '10.3390/jcp6020070'
 url_source: 'https://search.proquest.com/openview/5aece02074ad5eee433033e9aa791799/1'
 abstract: |
   Ransomware operations have evolved from isolated malware incidents into organized 
