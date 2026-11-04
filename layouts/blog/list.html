@@ -1,0 +1,20 @@
+{{ define "main" }}
+<div class="max-w-prose mx-auto flex justify-center">
+  <article class="prose prose-slate dark:prose-invert">
+    <h1>{{ .Title }}</h1>
+    {{ .Content }}
+  </article>
+</div>
+
+{{/* All briefings on one page, so a month is never split across pages. */}}
+{{ partial "views/briefing--start.html" (dict "config" (dict "grouped" true)) }}
+{{ range .Pages.GroupByDate "January 2006" }}
+  <section>
+    <h2 class="briefings__month">{{ .Key }}</h2>
+    <div class="briefings__grid">
+      {{ range .Pages }}{{ partial "views/briefing.html" (dict "item" .) }}{{ end }}
+    </div>
+  </section>
+{{ end }}
+{{ partial "views/briefing--end.html" (dict "config" (dict "grouped" true)) }}
+{{ end }}

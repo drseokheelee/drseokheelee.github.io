@@ -72,7 +72,7 @@ sections:
       # Page type to display. E.g. post, talk, publication...
       page_type: blog
       # Choose how many pages you would like to display (0 = all pages)
-      count: 10
+      count: 3
       # Filter on criteria
       filters:
         author: ''
@@ -88,7 +88,7 @@ sections:
       order: desc
     design:
       # Choose a layout view
-      view: card
+      view: briefing
       # Reduce spacing
       spacing:
         padding: [0, 0, 0, 0]

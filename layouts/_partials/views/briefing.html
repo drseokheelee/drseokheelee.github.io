@@ -1,0 +1,14 @@
+{{ $item := .item }}
+{{ $image := partial "functions/get_featured_image.html" $item }}
+<article class="briefing-card">
+  {{ if $image }}
+    <a class="briefing-card__image" href="{{ $item.RelPermalink }}" tabindex="-1" aria-hidden="true">
+      <img src="{{ ($image.Process "fill 720x400 Center webp").RelPermalink }}" width="720" height="400" loading="lazy" decoding="async" alt="">
+    </a>
+  {{ end }}
+  <div class="briefing-card__body">
+    <time class="briefing-card__date" datetime="{{ $item.Date.Format "2006-01-02" }}">{{ $item.Date.Format "2 January 2006" }}</time>
+    <h3 class="briefing-card__title"><a href="{{ $item.RelPermalink }}">{{ $item.Title }}</a></h3>
+    {{ with $item.Params.summary }}<p class="briefing-card__summary">{{ . | plainify }}</p>{{ end }}
+  </div>
+</article>
