@@ -31,6 +31,8 @@ links:
     url: https://linkedin.com/in/seokheelee
   - icon: academicons/google-scholar
     url: https://scholar.google.com/citations?user=NPx1faEAAAAJ
+  - icon: academicons/orcid
+    url: https://orcid.org/0009-0007-6142-7891
 interests:
   - Cyber Threat Intelligence (CTI)
   - Digital Forensics
@@ -56,14 +58,14 @@ education:
 experience:
   - role: Assistant Professor & Program Director of the Master of Cybercrime and Digital Forensics Investigation
     org: NAUSS (Naif Arab University for Security Sciences)
-    start: 2022-06-01
+    start: 2022-06-26
     summary: |
       Teaching Cyber Threat Intelligence, Incident Analysis and Response, 
       Digital Forensics and Evidence Seizure, and Smart City Forensics 
       for master's degree students. Directing the Cybersecurity and Digital 
       Forensics Program. Delivered Interpol-recognized Cyber Crime Investigation training.
   - role: Director for Cyber Security Division (CISO / CPO / Chief of CERT)
-    org: NIRS (National Information and Resource Services), Ministry of the Interior
+    org: National Information Resources Service (NIRS), Ministry of the Interior and Safety
     start: 2017-06-01
     end: 2022-05-31
     summary: |
