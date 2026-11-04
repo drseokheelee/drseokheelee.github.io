@@ -1,0 +1,134 @@
+schema: hugoblox/author/v1
+slug: me
+is_owner: true
+name:
+  display: Dr. Seokhee Lee
+  given: Seokhee
+  family: Lee
+  alternate: '이석희'
+  pronunciation: ''
+  pronouns: he/him
+postnominals:
+  - PhD
+status:
+  icon: "☕️"
+role: Assistant Professor & Program Director of Mater in Cybercrime and Digital Forensic Investigations
+bio: |
+  Dr. Seokhee Lee is an Assistant Professor and Master of cybercrime and Digital Forensic Investigations Program Director in the 
+  Department of Cybersecurity and Digital Forensics at Naif Arab University 
+  for Security Sciences (NAUSS), Riyadh, Saudi Arabia. He is the first PhD 
+  in Digital Forensics in Korea. His expertise spans Cyber Threat Intelligence, 
+  Digital Forensics, and Incident Response, with 18+ years of experience across 
+  academia, government, and legal sectors.
+affiliations:
+  - name: Naif Arab University for Security Sciences (NAUSS)
+    url: https://www.nauss.edu.sa/
+links:
+  - icon: at-symbol
+    url: mailto:slee@nauss.edu.sa
+    label: E-mail Me
+  - icon: brands/linkedin
+    url: https://linkedin.com/in/seokheelee
+  - icon: academicons/google-scholar
+    url: https://scholar.google.com/citations?user=NPx1faEAAAAJ
+interests:
+  - Cyber Threat Intelligence (CTI)
+  - Digital Forensics
+  - Incident Analysis and Response
+  - Cybercrime Investigation
+  - SCADA & ICS Security
+education:
+  - degree: PhD Information Security (Digital Forensics)
+    institution: Korea University
+    start: 2006-03-01
+    end: 2011-07-31
+    summary: |
+      First PhD in Digital Forensics in Korea. 
+      Research on digital evidence collection, live forensics, and investigation methodology.
+  - degree: MS Information Security (Digital Forensics)
+    institution: Korea University
+    start: 2004-03-01
+    end: 2006-02-28
+  - degree: BS Computer Engineering
+    institution: Pukyong National University
+    start: 1996-03-01
+    end: 2002-02-28
+experience:
+  - role: Assistant Professor & Program Director of Mater in Cybercrime and Digital Forensic Investigations
+    org: NAUSS (Naif Arab University for Security Sciences)
+    start: 2022-06-01
+    summary: |
+      Teaching Cyber Threat Intelligence, Incident Analysis and Response, 
+      Digital Forensics and Evidence Seizure, and Smart City Forensics 
+      for master's degree students. Directing the Cybersecurity and Digital 
+      Forensics Program. Delivered Interpol-recognized Cyber Crime Investigation training.
+  - role: Director for Cyber Security Division (CISO / CPO / Chief of CERT)
+    org: NIRS (National Information and Resource Services), Ministry of the Interior
+    start: 2017-06-01
+    end: 2022-05-31
+    summary: |
+      Led information security for Korea's government data center serving 45 ministries. 
+      Built AI-based security monitoring system (AIRIS). Joined FIRST international 
+      incident response consortium. Established ISMS-P certification — first in Korean 
+      public sector. Responded to 23 cyber incidents as CERT chief.Served as information security committee member for the 2018 PyeongChang 
+      Winter Olympics.
+  - role: Digital Forensic Expert
+    org: Kim & Chang Law Firm (K&C)
+    start: 2008-02-01
+    end: 2017-05-31
+    summary: |
+      Handled trade secret leakage, e-discovery, and digital forensics for Korea's 
+      largest law firm. Supported cross-border litigation including U.S. class action 
+      suits. 
+skills:
+  - name: Technical Skills
+    items:
+      - label: Digital Forensics
+        level: 5
+      - label: Cyber Threat Intelligence
+        level: 5
+      - label: Incident Response
+        level: 5
+      - label: Malware Analysis
+        level: 4
+      - label: E-Discovery
+        level: 5
+  - name: Research & Communication
+    items:
+      - label: Academic Writing
+        level: 5
+      - label: Conference Presentations
+        level: 5
+      - label: Course Development
+        level: 5
+      - label: Government Advisory
+        level: 5
+languages:
+  - name: Korean
+    level: 5
+    label: Native
+  - name: English
+    level: 5
+    label: Professional
+awards:
+  - title: National Cyber Security Presidential Merit
+    awarder: President of Republic of Korea
+    date: "2022-01-01"
+    summary: Awarded for contributions to national information security.
+    icon: hero/trophy
+  - title: National Cyber Security Contribution Commendation
+    awarder: Ministry of National Intelligence Service
+    date: "2021-01-01"
+    icon: hero/trophy
+  - title: National Cyber Security Presidential Award
+    awarder: Republic of Korea
+    date: "2019-01-01"
+    icon: hero/trophy
+  - title: Best Paper Award
+    awarder: CISC Conference
+    date: "2006-01-01"
+    icon: hero/trophy
+  - title: Best Paper Award
+    awarder: CISC Conference
+    date: "2005-01-01"
+    icon: hero/trophy
